@@ -14,11 +14,6 @@
 
 @interface UIViewController (Util)<BackButtonHandlerProtocol>
 
-/// 设置下一个退出界面的返回图标
-//- (void)backBarButtonItemWithImageName:(NSString *)imageName;
-/// 设置当前VC的返回按钮
-//- (void)currentVCBackBarButtonItemWithName:(NSString *)imageName;
-
 /// 获取当前VC
 + (UIViewController *)currentViewController;
 

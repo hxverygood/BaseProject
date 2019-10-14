@@ -6,42 +6,6 @@
 
 @implementation UIViewController (Util)
 
-//+ (instancetype)backBarButtonItemWithImageName:(NSString *)imageName {
-//    return [[UIViewController alloc] initBackBarButtonItemWithImageName:imageName];
-//}
-
-/// 设置下一个push界面的返回按钮图标
-- (void)backBarButtonItemWithImageName:(NSString *)imageName {
-    if (!self) {
-        return;
-    }
-    
-    UIImage *backButtonImage = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.navigationController.navigationBar.backIndicatorImage = backButtonImage;
-    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = backButtonImage;
-
-    UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleDone target:self.navigationController action:nil];
-    self.navigationItem.backBarButtonItem = backBarButtonItem;
-    [self.navigationController.navigationBar setTintColor:[UIColor clearColor]];
-}
-
-- (void)currentVCBackBarButtonItemWithName:(NSString *)imageName {
-    
-    if (!self) {
-        return;
-    }
-    UIImage *backButtonImage = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-
-    [UINavigationBar appearance].backIndicatorTransitionMaskImage = backButtonImage;
-    [UINavigationBar appearance].backIndicatorImage = backButtonImage;
-
-    UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleDone target:self.navigationController action:nil];
-    self.navigationItem.backBarButtonItem = backBarButtonItem;
-//    self.navigationController.navigationBar.barStyle = UIStatusBarStyleDefault;
-    [self.navigationController.navigationBar setTintColor:[UIColor clearColor]];
-}
-
-
 /// 获取当前VC
 + (UIViewController *)currentViewController {
     // Find best view controller
