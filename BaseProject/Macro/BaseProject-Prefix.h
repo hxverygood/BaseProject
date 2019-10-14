@@ -5,17 +5,19 @@
 //  Copyright © 2019年 shawnhans. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 #ifndef BaseProject_Prefix_h
 #define LDDriverSide_Prefix_h
 
+#pragma mark - COLOR
 /*--------------- COLOR ---------------*/
-##pragma mark - COLOR
 #define MAIN_COLOR              [UIColor colorWithRed:255/255.0 green:214/255.0 blue:83/255.0  alpha:1.0]
 #define BACKGROUND_COLOR        [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0]
 #define BLACK_COLOR             [UIColor colorWithRed:36/255.0  green:36/255.0  blue:36/255.0  alpha:1.0]
 #define GRAY_COLOR              [UIColor colorWithRed:90/255.0  green:90/255.0  blue:90/255.0  alpha:1.0]
-#define LIGHT_GRAY_COLOR        [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1.0]
-#define GRAY180_COLOR           [UIColor colorWithRed:180/255.0 green:180/255.0 blue:180/255.0 alpha:1.0]
+#define LIGHT_GRAY              [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1.0]
+#define GRAY180                 [UIColor colorWithRed:180/255.0 green:180/255.0 blue:180/255.0 alpha:1.0]
 #define BUTTON_COLOR            [UIColor colorWithRed:255/255.0 green:214/255.0 blue:83/255.0  alpha:1.0]
 #define LINE_COLOR              [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
 
@@ -23,6 +25,9 @@
 #define RGBACOLOR(r,g,b,a)      [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 #define HEXCOLOR(rgbValue)      [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
+
+
+#pragma mark - 手机尺寸
 
 /*--------------- 系统型号、版本 ---------------*/
 // 判断屏幕尺寸
@@ -77,6 +82,8 @@ static inline CGFloat isIPhoneXSeries_Bottom_Offset() {
 
 
 #pragma mark - 其它参数
+
+#define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
 
 #define TABBAR_HEIGHT           49.0
 #define RADIUS                  6.0
