@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProjectHeaderFile.h"
 
 #ifndef BaseProject_Prefix_h
 #define LDDriverSide_Prefix_h

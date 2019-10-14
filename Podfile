@@ -9,8 +9,16 @@ target 'BaseProject' do
   use_frameworks!
 
   # Pods for BaseProject
+  pod 'AFNetworking'
   pod 'MJRefresh'
+  pod 'YYKit'
+  pod 'SVProgressHUD'
+  pod 'CYLTableViewPlaceHolder'
+  
+  pod 'KVOController'                     # Facebook
 
+  
+  
   target 'BaseProjectTests' do
     inherit! :search_paths
     # Pods for testing
