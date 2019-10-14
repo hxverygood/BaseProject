@@ -17,6 +17,15 @@
 		18EB73E52354119300E16766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB73DF2354119300E16766 /* LaunchScreen.storyboard */; };
 		18EB73E62354119300E16766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB73E12354119300E16766 /* Main.storyboard */; };
 		18EB73EB235414D000E16766 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB73EA235414D000E16766 /* Config.m */; };
+		18EB73FE23541B4700E16766 /* QSThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB73F823541B4700E16766 /* QSThreadSafeMutableDictionary.m */; };
+		18EB73FF23541B4700E16766 /* QSThreadSafeCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB73FA23541B4700E16766 /* QSThreadSafeCounter.m */; };
+		18EB740023541B4700E16766 /* QSThreadSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB73FC23541B4700E16766 /* QSThreadSafeMutableArray.m */; };
+		18EB740523541B8F00E16766 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB740323541B8F00E16766 /* Reachability.m */; };
+		18EB740623541B8F00E16766 /* CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB740423541B8F00E16766 /* CheckInput.m */; };
+		18EB7411235423C600E16766 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB740F235423C600E16766 /* NSString+Date.m */; };
+		18EB7412235423C600E16766 /* NSString+Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB7410235423C600E16766 /* NSString+Handle.m */; };
+		18EB74152354241F00E16766 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB74142354241F00E16766 /* NSString+Size.m */; };
+		18EB74182354287700E16766 /* NSString+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB74172354287700E16766 /* NSString+Number.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,24 @@
 		18EB73EF235416AC00E16766 /* ProjectHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectHeaderFile.h; sourceTree = "<group>"; };
 		18EB73F2235416AC00E16766 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		18EB73F4235416EE00E16766 /* BaseProject-Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseProject-Prefix.h"; sourceTree = "<group>"; };
+		18EB73F823541B4700E16766 /* QSThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		18EB73F923541B4700E16766 /* QSThreadSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		18EB73FA23541B4700E16766 /* QSThreadSafeCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSThreadSafeCounter.m; sourceTree = "<group>"; };
+		18EB73FB23541B4700E16766 /* QSThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		18EB73FC23541B4700E16766 /* QSThreadSafeMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSThreadSafeMutableArray.m; sourceTree = "<group>"; };
+		18EB73FD23541B4700E16766 /* QSThreadSafeCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSThreadSafeCounter.h; sourceTree = "<group>"; };
+		18EB740123541B8F00E16766 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18EB740223541B8F00E16766 /* CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInput.h; sourceTree = "<group>"; };
+		18EB740323541B8F00E16766 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18EB740423541B8F00E16766 /* CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInput.m; sourceTree = "<group>"; };
+		18EB740D235423C600E16766 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		18EB740E235423C600E16766 /* NSString+Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Handle.h"; sourceTree = "<group>"; };
+		18EB740F235423C600E16766 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		18EB7410235423C600E16766 /* NSString+Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Handle.m"; sourceTree = "<group>"; };
+		18EB74132354241F00E16766 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		18EB74142354241F00E16766 /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		18EB74162354287700E16766 /* NSString+Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Number.h"; sourceTree = "<group>"; };
+		18EB74172354287700E16766 /* NSString+Number.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Number.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +137,9 @@
 		1845DF672351B01C0069AA1D /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				1845DF6E2351B01C0069AA1D /* ViewController.h */,
-				1845DF6F2351B01C0069AA1D /* ViewController.m */,
+				18EB73F523541B1900E16766 /* Utils */,
 				18EB73E8235414D000E16766 /* Config */,
+				18EB73F623541B2500E16766 /* ViewControllers */,
 				18EB73D42354116500E16766 /* AppDelegate */,
 				18EB73DD2354119300E16766 /* Resource */,
 				18EB73EC235416AC00E16766 /* Macro */,
@@ -178,6 +205,48 @@
 				18EB73F2235416AC00E16766 /* Const.h */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		18EB73F523541B1900E16766 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18EB73F723541B4700E16766 /* ThreadSafe */,
+				18EB740223541B8F00E16766 /* CheckInput.h */,
+				18EB740423541B8F00E16766 /* CheckInput.m */,
+				18EB740123541B8F00E16766 /* Reachability.h */,
+				18EB740323541B8F00E16766 /* Reachability.m */,
+				18EB740E235423C600E16766 /* NSString+Handle.h */,
+				18EB7410235423C600E16766 /* NSString+Handle.m */,
+				18EB74162354287700E16766 /* NSString+Number.h */,
+				18EB74172354287700E16766 /* NSString+Number.m */,
+				18EB740D235423C600E16766 /* NSString+Date.h */,
+				18EB740F235423C600E16766 /* NSString+Date.m */,
+				18EB74132354241F00E16766 /* NSString+Size.h */,
+				18EB74142354241F00E16766 /* NSString+Size.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18EB73F623541B2500E16766 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1845DF6E2351B01C0069AA1D /* ViewController.h */,
+				1845DF6F2351B01C0069AA1D /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18EB73F723541B4700E16766 /* ThreadSafe */ = {
+			isa = PBXGroup;
+			children = (
+				18EB73F923541B4700E16766 /* QSThreadSafeMutableArray.h */,
+				18EB73FC23541B4700E16766 /* QSThreadSafeMutableArray.m */,
+				18EB73FB23541B4700E16766 /* QSThreadSafeMutableDictionary.h */,
+				18EB73F823541B4700E16766 /* QSThreadSafeMutableDictionary.m */,
+				18EB73FA23541B4700E16766 /* QSThreadSafeCounter.m */,
+				18EB73FD23541B4700E16766 /* QSThreadSafeCounter.h */,
+			);
+			path = ThreadSafe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,10 +380,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EB73EB235414D000E16766 /* Config.m in Sources */,
+				18EB74152354241F00E16766 /* NSString+Size.m in Sources */,
+				18EB740023541B4700E16766 /* QSThreadSafeMutableArray.m in Sources */,
+				18EB7412235423C600E16766 /* NSString+Handle.m in Sources */,
 				18EB73DC2354116500E16766 /* AppDelegate.m in Sources */,
+				18EB7411235423C600E16766 /* NSString+Date.m in Sources */,
+				18EB74182354287700E16766 /* NSString+Number.m in Sources */,
 				1845DF702351B01C0069AA1D /* ViewController.m in Sources */,
+				18EB73FE23541B4700E16766 /* QSThreadSafeMutableDictionary.m in Sources */,
+				18EB73FF23541B4700E16766 /* QSThreadSafeCounter.m in Sources */,
 				18EB73DB2354116500E16766 /* main.m in Sources */,
+				18EB740523541B8F00E16766 /* Reachability.m in Sources */,
 				18EB73DA2354116500E16766 /* SceneDelegate.m in Sources */,
+				18EB740623541B8F00E16766 /* CheckInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
