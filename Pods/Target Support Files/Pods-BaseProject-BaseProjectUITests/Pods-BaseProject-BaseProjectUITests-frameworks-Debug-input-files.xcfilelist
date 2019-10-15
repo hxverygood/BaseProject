@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseP
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/CYLTableViewPlaceHolder/CYLTableViewPlaceHolder.framework
 ${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework
+${PODS_ROOT}/LookinServer/LookinServer.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
 ${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework
 ${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

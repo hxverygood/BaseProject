@@ -19,6 +19,9 @@ target 'BaseProject' do
   pod 'KVOController'                     # Facebook
 
   
+  # 调试工具
+  pod 'LookinServer', :configurations => ['Debug']
+  
   
   target 'BaseProjectTests' do
     inherit! :search_paths

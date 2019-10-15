@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - CYLTableViewPlaceHolder (1.0.9)
   - KVOController (1.2.0)
+  - LookinServer (0.9.4)
   - MJRefresh (3.2.0)
   - QMUIKit (4.0.2):
     - QMUIKit/QMUIComponents (= 4.0.2)
@@ -322,6 +323,7 @@ DEPENDENCIES:
   - AFNetworking
   - CYLTableViewPlaceHolder
   - KVOController
+  - LookinServer
   - MJRefresh
   - QMUIKit
   - SVProgressHUD
@@ -332,6 +334,7 @@ SPEC REPOS:
     - AFNetworking
     - CYLTableViewPlaceHolder
     - KVOController
+    - LookinServer
     - MJRefresh
     - QMUIKit
     - SVProgressHUD
@@ -341,11 +344,12 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CYLTableViewPlaceHolder: 678e070180a24e2f241adc7830d5d7f5e2abbaa5
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  LookinServer: 54eb99921647bda4068ff8776d842285e2bf0adb
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   QMUIKit: 4914306e357359d79a118557cc34513dfb3b12ab
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 45f7fe9afa30afcff84e7c846344e0e3a4cce586
+PODFILE CHECKSUM: e17ede07643c0c1154c3575a3c0cbd095a237e36
 
 COCOAPODS: 1.8.0
