@@ -14,6 +14,7 @@ target 'BaseProject' do
   pod 'YYKit'
   pod 'SVProgressHUD'
   pod 'CYLTableViewPlaceHolder'
+  pod 'QMUIKit'                           # 腾讯UI工具集
   
   pod 'KVOController'                     # Facebook
 
