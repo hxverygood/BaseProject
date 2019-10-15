@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F9FBF45CA44B453AE5CCC2E /* Pods_BaseProject_BaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CD286B1DDD2DEF0D0FA7DC /* Pods_BaseProject_BaseProjectUITests.framework */; };
-		1845DF702351B01C0069AA1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845DF6F2351B01C0069AA1D /* ViewController.m */; };
 		1845DF852351B01E0069AA1D /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845DF842351B01E0069AA1D /* BaseProjectTests.m */; };
 		1845DF902351B01E0069AA1D /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845DF8F2351B01E0069AA1D /* BaseProjectUITests.m */; };
 		18EB73DA2354116500E16766 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB73D62354116500E16766 /* SceneDelegate.m */; };
@@ -102,8 +101,6 @@
 
 /* Begin PBXFileReference section */
 		1845DF652351B01C0069AA1D /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1845DF6E2351B01C0069AA1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1845DF6F2351B01C0069AA1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1845DF802351B01E0069AA1D /* BaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1845DF842351B01E0069AA1D /* BaseProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectTests.m; sourceTree = "<group>"; };
 		1845DF862351B01E0069AA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -317,7 +314,6 @@
 				18EB73E8235414D000E16766 /* Config */,
 				18EB744F2354621C00E16766 /* BaseClass */,
 				18EB75A823546F4B00E16766 /* Interface */,
-				18EB73F623541B2500E16766 /* ViewControllers */,
 				18EB73D42354116500E16766 /* AppDelegate */,
 				18EB73DD2354119300E16766 /* Resource */,
 				18EB73EC235416AC00E16766 /* Macro */,
@@ -431,15 +427,6 @@
 				18EB74412354607400E16766 /* UITextField+Utils.m */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		18EB73F623541B2500E16766 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1845DF6E2351B01C0069AA1D /* ViewController.h */,
-				1845DF6F2351B01C0069AA1D /* ViewController.m */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		18EB73F723541B4700E16766 /* ThreadSafe */ = {
@@ -998,7 +985,6 @@
 				18EB7411235423C600E16766 /* NSString+Date.m in Sources */,
 				18EB74182354287700E16766 /* NSString+Number.m in Sources */,
 				18EB74242354539600E16766 /* NSDictionary+Accessors.m in Sources */,
-				1845DF702351B01C0069AA1D /* ViewController.m in Sources */,
 				18EB743323545F7F00E16766 /* UIButton+Utils.m in Sources */,
 				18EB757B2354621D00E16766 /* ConfirmAlertController.m in Sources */,
 				18EB75852354621D00E16766 /* BaseTableView.m in Sources */,

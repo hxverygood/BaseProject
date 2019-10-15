@@ -17,5 +17,9 @@
 /*--------------- 第3方库 ---------------*/
 #import <YYKit.h>
 #import "HUD.h"
+#import <QMUIKit/QMUIKit.h>
+#import "QDCommonUI.h"
+#import "QDUIHelper.h"
+#import "QDThemeManager.h"
 
 #endif /* ProjectHeaderFile_h */
