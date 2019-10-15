@@ -8,19 +8,18 @@ target 'BaseProject' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for BaseProject
+  # 必选Pods
   pod 'AFNetworking'
   pod 'MJRefresh'
   pod 'YYKit'
   pod 'SVProgressHUD'
   pod 'CYLTableViewPlaceHolder'
-  pod 'QMUIKit'                           # 腾讯UI工具集
-  
-  pod 'KVOController'                     # Facebook
+  pod 'KVOController'                                    # Facebook
+  pod 'QMUIKit'                                         # 腾讯UI工具集
 
   
-  # 调试工具
-  pod 'LookinServer', :configurations => ['Debug']
+  # 可选Pods
+  pod 'LookinServer', :configurations => ['Debug']      # 调试工具
   
   
   target 'BaseProjectTests' do
